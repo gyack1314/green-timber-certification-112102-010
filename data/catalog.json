@@ -16,7 +16,7 @@
         "version",
         "wet_kg"
       ],
-      "sha256": "c70e0ef33e84e8f753399d994b29fa639096999ec72e287384949f961592adb5",
+      "sha256": "24a7e276be12bd3c96e6b26630bdba676bd690c2032cc3249d35dad5c989deb1",
       "stage": "original"
     },
     {
@@ -46,7 +46,7 @@
         "process",
         "product_group"
       ],
-      "sha256": "77403b16f6570a846868de634d1b6b65ecee5c8db399892e1500fccd8fff994d",
+      "sha256": "503df8b314688f5df26512ff74315c57493b484c2f32bae8d9a7268a2dc454cf",
       "stage": "original"
     },
     {
@@ -85,7 +85,7 @@
         "valid_to",
         "version"
       ],
-      "sha256": "904f90329c33e396fe96dc10aa0f744cf99d7659f5d07e7940d3430d2c3ce1d6",
+      "sha256": "bb5dd8d43150932318e04bd6872d7d7e06338ca8fbb7849e1b1c37a3e713aaa2",
       "stage": "original"
     },
     {
@@ -109,7 +109,7 @@
         "credit",
         "segregated"
       ],
-      "sha256": "13bf6e0d3d6b694b6a488c6bfdfe5a499c82c6a576a55ba3123191155d7ba496",
+      "sha256": "d0c4e3e59e6dca3873188613013393c9dcf599ee0b65d8f2a6847d8553951406",
       "stage": "original"
     },
     {
@@ -125,7 +125,7 @@
         "system",
         "unit"
       ],
-      "sha256": "b0616b5baa224dde7e3836fe4ab43da4a89ba6deddc265f6ebaf0b99c85a8755",
+      "sha256": "2fcdd02f7b8a275ebc12197c7f9a669f218f875de17dfa846349b29ae60c9567",
       "stage": "original"
     },
     {
@@ -137,7 +137,7 @@
         "shipment",
         "status"
       ],
-      "sha256": "adf0609f53ef552d899313dc42a41e4f7ac272aa2cbe0a29b5799df3b59fe87d",
+      "sha256": "35137b348129742214a35b1c6f94ea26051e5a932544e0ef3897cbf597b12f38",
       "stage": "original"
     },
     {
@@ -151,7 +151,7 @@
         "received_at",
         "version"
       ],
-      "sha256": "ef517b1e77e2ada553ef9ffd055408a2d6c42234213d320978d4d40e8332baa2",
+      "sha256": "ac78638698d45cc2d3a201a793879f5ea5f7b4cf56dcedbe494d1b87899edf39",
       "stage": "original"
     },
     {
