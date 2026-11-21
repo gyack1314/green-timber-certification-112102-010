@@ -7,3 +7,5 @@ sales_requests.jsonl 的system/qty/unit/period是业务申请，shipping.jsonl�
 转换表省略revision为1，同species/process及有效期的较高修订替代解释；信用同时受真实产出与合格投入换算上限约束。客户声明制度以申请system表示已获客户接受，省略不默认credit。
 
 所有名称与数值均为本地合成数据，不代表真实企业、监管结论或生态调查。data/catalog.json 保存文件哈希、原始行数与列；data/updates/ 为后到修订资料，可独立接收。JSON null 表示尚无该值，不与数值零等同；CSV保留原字符串，金额和数量应按十进制解释。来源身份相同且内容相同的重送不产生新业务事实，同身份版本不同内容需保留争议，除明确替代关系外不按到达顺序判定权威。
+
+同一合格投入贡献不能在credit和segregated制度重复售出；同一申请未确认的占用也要避免向其他申请重复承诺。取消仅释放未确认部分。

@@ -1,3 +1,4 @@
 {"request":"S1","output":"BOARD1","customer":"A","system":"credit","qty":"0.7","unit":"m3","period":"2026-10","at":"2026-10-04"}
 {"request":"S2","output":"BOARD1","customer":"B","system":"segregated","qty":"0.2","unit":"m3","period":"2026-10","at":"2026-10-04"}
 {"request":"S3","output":"BOARD2","customer":"C","system":"segregated","qty":"0.2","unit":"m3","period":"2026-10","at":"2026-10-05"}
+{"request":"S4","output":"BOARD2","customer":"D","system":"credit","qty":"0.3","unit":"m3","period":"2026-10","at":"2026-10-05T01:00:00Z"}

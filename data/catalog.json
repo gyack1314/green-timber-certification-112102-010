@@ -114,7 +114,7 @@
     },
     {
       "path": "data/sales_requests.jsonl",
-      "rows": 3,
+      "rows": 4,
       "columns": [
         "at",
         "customer",
@@ -125,7 +125,7 @@
         "system",
         "unit"
       ],
-      "sha256": "416c12b7ecba8659d8ee1f9abfe4db2a5a95f13bc73f84521058ce61dcb76c90",
+      "sha256": "d660cc2ba05bce32df4963f917d1832683f4a33109a52de9fd5dc2ac6a26f677",
       "stage": "original"
     },
     {
