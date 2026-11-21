@@ -1,0 +1,2 @@
+{"receipt":"R1","supplier":"SUP1","document":"D1","version":1,"forest":"FOREST1","species":"PINE","wet_kg":"1000","moisture_fraction":"0.4","at":"2026-10-01","certificate":"CERT1"}
+{"receipt":"R2","supplier":"SUP2","document":"D2","version":1,"forest":"FOREST2","species":"PINE","wet_kg":"500","moisture_fraction":"0.2","at":"2026-10-01","certificate":null}

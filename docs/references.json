@@ -1,0 +1,20 @@
+[
+  {
+    "source": "data/receipts.jsonl",
+    "source_key": "certificate",
+    "target": "data/certificates.jsonl",
+    "target_key": "certificate"
+  },
+  {
+    "source": "data/shipping.jsonl",
+    "source_key": "request",
+    "target": "data/sales_requests.jsonl",
+    "target_key": "request"
+  },
+  {
+    "source": "data/yield_shares.csv",
+    "source_key": "output",
+    "target": "data/outputs.csv",
+    "target_key": "output"
+  }
+]

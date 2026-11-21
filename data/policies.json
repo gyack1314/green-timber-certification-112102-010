@@ -1,0 +1,10 @@
+{
+  "segregated": {
+    "require_all_inputs": true,
+    "require_isolated": true
+  },
+  "credit": {
+    "period": "calendar_month",
+    "allow_cross_pool": false
+  }
+}

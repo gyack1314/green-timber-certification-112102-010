@@ -1,0 +1,173 @@
+{
+  "synthetic": true,
+  "files": [
+    {
+      "path": "data/receipts.jsonl",
+      "rows": 2,
+      "columns": [
+        "at",
+        "certificate",
+        "document",
+        "forest",
+        "moisture_fraction",
+        "receipt",
+        "species",
+        "supplier",
+        "version",
+        "wet_kg"
+      ],
+      "sha256": "c70e0ef33e84e8f753399d994b29fa639096999ec72e287384949f961592adb5",
+      "stage": "original"
+    },
+    {
+      "path": "data/conversion.csv",
+      "rows": 1,
+      "columns": [
+        "species",
+        "process",
+        "dry_kg_per_m3",
+        "valid_from",
+        "valid_to"
+      ],
+      "sha256": "73911e54ddd280e4315509fcde4691506cd94c5ef3df3874e3f090ffb61d41cb",
+      "stage": "original"
+    },
+    {
+      "path": "data/processes.jsonl",
+      "rows": 1,
+      "columns": [
+        "at",
+        "inputs",
+        "isolated",
+        "method",
+        "outputs",
+        "period",
+        "pool",
+        "process",
+        "product_group"
+      ],
+      "sha256": "77403b16f6570a846868de634d1b6b65ecee5c8db399892e1500fccd8fff994d",
+      "stage": "original"
+    },
+    {
+      "path": "data/outputs.csv",
+      "rows": 2,
+      "columns": [
+        "output",
+        "kind",
+        "qty",
+        "unit"
+      ],
+      "sha256": "261e7aa7f565a3f166ffa8ced658346257db56f3ed62ff015fed2f4012aa8c92",
+      "stage": "original"
+    },
+    {
+      "path": "data/yield_shares.csv",
+      "rows": 2,
+      "columns": [
+        "process",
+        "output",
+        "share"
+      ],
+      "sha256": "e2e887d2d08480d865cb0b918c7c2ebe7dabb9141595b0ddf31d21e261048fbd",
+      "stage": "original"
+    },
+    {
+      "path": "data/certificates.jsonl",
+      "rows": 1,
+      "columns": [
+        "certificate",
+        "forests",
+        "holder",
+        "species",
+        "status",
+        "valid_from",
+        "valid_to",
+        "version"
+      ],
+      "sha256": "904f90329c33e396fe96dc10aa0f744cf99d7659f5d07e7940d3430d2c3ce1d6",
+      "stage": "original"
+    },
+    {
+      "path": "data/transfers.csv",
+      "rows": 2,
+      "columns": [
+        "transfer",
+        "receipt",
+        "from_holder",
+        "to_holder",
+        "at",
+        "signed"
+      ],
+      "sha256": "5879a64e110754927d3b2ccb54119105dae35aff868a122d719750155c82bc34",
+      "stage": "original"
+    },
+    {
+      "path": "data/policies.json",
+      "rows": 1,
+      "columns": [
+        "credit",
+        "segregated"
+      ],
+      "sha256": "13bf6e0d3d6b694b6a488c6bfdfe5a499c82c6a576a55ba3123191155d7ba496",
+      "stage": "original"
+    },
+    {
+      "path": "data/sales_requests.jsonl",
+      "rows": 2,
+      "columns": [
+        "at",
+        "customer",
+        "output",
+        "period",
+        "qty",
+        "request",
+        "system",
+        "unit"
+      ],
+      "sha256": "b0616b5baa224dde7e3836fe4ab43da4a89ba6deddc265f6ebaf0b99c85a8755",
+      "stage": "original"
+    },
+    {
+      "path": "data/shipping.jsonl",
+      "rows": 1,
+      "columns": [
+        "at",
+        "request",
+        "shipment",
+        "status"
+      ],
+      "sha256": "adf0609f53ef552d899313dc42a41e4f7ac272aa2cbe0a29b5799df3b59fe87d",
+      "stage": "original"
+    },
+    {
+      "path": "data/notifications.jsonl",
+      "rows": 1,
+      "columns": [
+        "action",
+        "certificate",
+        "effective_at",
+        "notification",
+        "received_at",
+        "version"
+      ],
+      "sha256": "ef517b1e77e2ada553ef9ffd055408a2d6c42234213d320978d4d40e8332baa2",
+      "stage": "original"
+    },
+    {
+      "path": "data/updates/conversion.csv",
+      "rows": 1,
+      "columns": [
+        "species",
+        "process",
+        "dry_kg_per_m3",
+        "valid_from",
+        "valid_to",
+        "revision",
+        "observed_at"
+      ],
+      "sha256": "a8388e04b7f56d96997f7c5b75d0c5e652c076bc14a15f69a57a097fb23ef14a",
+      "stage": "supplement"
+    }
+  ]
+}
