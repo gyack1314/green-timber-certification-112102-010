@@ -3,7 +3,7 @@
   "files": [
     {
       "path": "data/receipts.jsonl",
-      "rows": 2,
+      "rows": 3,
       "columns": [
         "at",
         "certificate",
@@ -16,7 +16,7 @@
         "version",
         "wet_kg"
       ],
-      "sha256": "24a7e276be12bd3c96e6b26630bdba676bd690c2032cc3249d35dad5c989deb1",
+      "sha256": "5833990d3d521766063d8e2f068ffddee5c02c763986dfd8f55bc51fc9e68f9a",
       "stage": "original"
     },
     {
@@ -34,7 +34,7 @@
     },
     {
       "path": "data/processes.jsonl",
-      "rows": 1,
+      "rows": 2,
       "columns": [
         "at",
         "inputs",
@@ -46,35 +46,35 @@
         "process",
         "product_group"
       ],
-      "sha256": "503df8b314688f5df26512ff74315c57493b484c2f32bae8d9a7268a2dc454cf",
+      "sha256": "c70cdb64b2b5344de2b0a3a64f1ee3495dcb5943a6dc2ca2574c9e0b9b70d943",
       "stage": "original"
     },
     {
       "path": "data/outputs.csv",
-      "rows": 2,
+      "rows": 3,
       "columns": [
         "output",
         "kind",
         "qty",
         "unit"
       ],
-      "sha256": "261e7aa7f565a3f166ffa8ced658346257db56f3ed62ff015fed2f4012aa8c92",
+      "sha256": "df6fc5cbfd93a11b346ea6135cc973fc9deefbcad55fda534408588b2e4a9ae2",
       "stage": "original"
     },
     {
       "path": "data/yield_shares.csv",
-      "rows": 2,
+      "rows": 3,
       "columns": [
         "process",
         "output",
         "share"
       ],
-      "sha256": "e2e887d2d08480d865cb0b918c7c2ebe7dabb9141595b0ddf31d21e261048fbd",
+      "sha256": "0f346e25a7f76db7d15adb4226e3162585166841908501cc0aee77317f7b1cc5",
       "stage": "original"
     },
     {
       "path": "data/certificates.jsonl",
-      "rows": 1,
+      "rows": 2,
       "columns": [
         "certificate",
         "forests",
@@ -85,12 +85,12 @@
         "valid_to",
         "version"
       ],
-      "sha256": "bb5dd8d43150932318e04bd6872d7d7e06338ca8fbb7849e1b1c37a3e713aaa2",
+      "sha256": "61abcad34a1fca50660d71281708d38ff24ee2365c928ac56ecde63701bd1c98",
       "stage": "original"
     },
     {
       "path": "data/transfers.csv",
-      "rows": 2,
+      "rows": 3,
       "columns": [
         "transfer",
         "receipt",
@@ -99,7 +99,7 @@
         "at",
         "signed"
       ],
-      "sha256": "5879a64e110754927d3b2ccb54119105dae35aff868a122d719750155c82bc34",
+      "sha256": "9c10e97423bc38d65cd6cc5a1f9a01e63e450390cecccbfbf0cabb084c8e948d",
       "stage": "original"
     },
     {
@@ -114,7 +114,7 @@
     },
     {
       "path": "data/sales_requests.jsonl",
-      "rows": 2,
+      "rows": 3,
       "columns": [
         "at",
         "customer",
@@ -125,7 +125,7 @@
         "system",
         "unit"
       ],
-      "sha256": "2fcdd02f7b8a275ebc12197c7f9a669f218f875de17dfa846349b29ae60c9567",
+      "sha256": "416c12b7ecba8659d8ee1f9abfe4db2a5a95f13bc73f84521058ce61dcb76c90",
       "stage": "original"
     },
     {

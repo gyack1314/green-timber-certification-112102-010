@@ -2,7 +2,7 @@
 
 receipts.jsonl 的supplier/document/version标识来源单，wet_kg/moisture_fraction为原计量。dry_kg=wet_kg*(1-moisture_fraction)只表示干物质量；conversion.csv给树种/工艺对应的dry_kg_per_m3及有效期，无数据不可换算。
 processes.jsonl 把输入receipt与output及副产物联系起来，isolated是有来源凭据的生产条件声明。证书certificate版本限制forest/species/holder和有效期；transfers.csv是实物交接链。
-policies.json中segregated要求所有投入有效且隔离，credit按输入合格干物质量乘已批准conversion的产量转换，在pool/product_group/period内可用，副产物分担规则由yield_shares.csv给出且合计不能超过1。
+policies.json中segregated要求所有投入有效且隔离，credit按输入合格干物质量除以已批准的dry_kg_per_m3换算为体积，在pool/product_group/period内可用，副产物分担规则由yield_shares.csv给出且合计不能超过1。
 sales_requests.jsonl 的system/qty/unit/period是业务申请，shipping.jsonl的confirmed/cancelled作用于该申请。证书撤销以notifications.jsonl记录发生与收到时刻。
 转换表省略revision为1，同species/process及有效期的较高修订替代解释；信用同时受真实产出与合格投入换算上限约束。客户声明制度以申请system表示已获客户接受，省略不默认credit。
 
